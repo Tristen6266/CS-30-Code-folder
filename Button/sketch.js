@@ -16,6 +16,7 @@ function setup() {
   myButton.color = "red";
   x= width
   y= height
+  createBall()
 }
 
 
@@ -25,12 +26,11 @@ function draw() {
      drawButton();
   }
   if(buttonPressed===true){
-    circle(x/2,y/2,100)
     for(let i=0;i<ballarray.length;i++){
       circle(ballarray[i].x, ballarray[i].y, ballarray[i].diameter);
       ballarray[i].x+=ballarray[i].dx;
       ballarray[i].y+=ballarray[i].dy;}
-    createBall()
+      
   }
 
 }
@@ -56,7 +56,10 @@ function createBall(){
      else{
       buttonPressed=false
      }
-    
+     fill("green")
+    if(buttonPressed===true){
+      createBall()
+    }
    }
    
    function drawButton(){
