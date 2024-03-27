@@ -1,3 +1,7 @@
+// Tristen Rapchalk
+// March 27 2024
+// String basics
+
 public class App {
     public static void main(String[] args) throws Exception {
         String messeage1= "I am very happy";
