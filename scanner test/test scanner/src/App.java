@@ -24,5 +24,7 @@ public class App {
         System.out.print("Enter a Sentence: ");
         String sentence = keys.nextLine();
         System.out.println(num + " " + sentence);
+        
+        
     }
 }
