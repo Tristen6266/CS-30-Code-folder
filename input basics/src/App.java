@@ -22,19 +22,19 @@ public class App {
 
       
 
-      Double DubOne, DubTwo; 
+      Double DoubOne, DoubTwo; 
 
       System.out.print("Enter a Number :: ");
 
-      DubOne = keyboard.nextDouble();
+      DoubOne = keyboard.nextDouble();
 
  
       System.out.print("Enter a Number :: ");
 
-      DubTwo = keyboard.nextDouble();
+      DoubTwo = keyboard.nextDouble();
 
-      System.out.println("Double one = " + DubOne);
-      System.out.println("Double two = " + DubTwo);
-      System.out.println("added together = " +(DubOne + DubTwo));
+      System.out.println("Double one = " + DoubOne);
+      System.out.println("Double two = " + DoubTwo);
+      System.out.println("added together = " +(DoubOne + DoubTwo));
     }
 }
