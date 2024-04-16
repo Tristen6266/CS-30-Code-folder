@@ -1,3 +1,7 @@
+//Tristen Rapchalk
+// BigOrSmall
+//April 10 2024
+
 import java.util.Scanner;
 public class BigOrSmall {
     
