@@ -14,7 +14,7 @@ public class Sum {
         }
     
         public void print( )
-        {System.out.println(sum);
+        {System.out.println(sum );
         }
     
 
